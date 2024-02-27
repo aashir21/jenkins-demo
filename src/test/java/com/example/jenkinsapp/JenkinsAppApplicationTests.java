@@ -16,6 +16,7 @@ class JenkinsAppApplicationTests {
 	void contextLoads() {
 
 		logger.info("Test executing...");
+		logger.info("Test executing... 2nd time");
 		assertEquals(true, true);
 
 	}
